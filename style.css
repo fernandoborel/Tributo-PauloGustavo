@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: #EEE;
+}
+header{
+    height: 150px;
+    background-color: #333;
+    color: #FFF;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1140px;
+    margin: auto;
+}
+.banner-title{
+    padding: 30px;
+}
+.body{
+    padding-top: 70px;
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.body-desc p{
+    font-size: 22px;
+    line-height: 35px;
+}
+.body-img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.body-img img{
+    height: 300px;
+    width: 300px;
+}
+.works{
+    padding-top: 50px;
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+.works-tv h1{
+   padding: 20px;
+   font-size: 30px;
+}
+.works-tv ul li{
+    font-size: 22px;
+}
+.works-cine h1{
+    padding: 20px;
+    font-size: 30px;
+}
+.works-cine ul li{
+    font-size: 22px;
+}
+footer{
+    background-color: #333;
+}
+.footer-desc{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.wikipedia a{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #FFF;
+    text-decoration: none;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.devfer a{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #FFF;
+    text-decoration: none;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+@media (min-width:450px) and (max-width:800px) {
+    .body-desc{
+        margin-left: 20px;
+    }
+    .body-desc p{
+        text-align: justify;
+    }
+    .works{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .works-tv{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:450px){ 
+    header{
+        height: 200px;
+    }
+    .banner-title h1{
+        margin-bottom: 15px;
+    }
+    .body{
+        flex-direction: column;
+    }
+    .body-desc{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .body-desc p{
+        text-align: justify;
+    }
+    .body-img{
+        margin-top: 50px;
+    }
+    .works{
+        flex-direction: column;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .works-tv{
+        margin-bottom: 30px;
+    }
+    .footer-desc{
+        flex-direction: column;
+        height: 300px;
+    }
+}
