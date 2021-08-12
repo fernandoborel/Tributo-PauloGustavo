@@ -1,4 +1,5 @@
 Página de Tributo ao ator e humorista Paulo Gustavo.
+
 Desktop
 
 ![Tributo a Paulo Gustavo](https://user-images.githubusercontent.com/87503905/129123548-b7acc2c9-f36b-4a03-b31c-0ffa1b6eb9e0.png)
